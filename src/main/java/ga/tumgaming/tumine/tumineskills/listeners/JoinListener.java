@@ -1,4 +1,4 @@
-package ga.tumgaming.tumine.tuminetemplate.listeners;
+package ga.tumgaming.tumine.tumineskills.listeners;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

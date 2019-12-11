@@ -1,4 +1,4 @@
-package ga.tumgaming.tumine.tuminetemplate;
+package ga.tumgaming.tumine.tumineskills;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
@@ -7,20 +7,20 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Logger;
 
-import ga.tumgaming.tumine.tuminetemplate.listeners.BlockBreakListener;
-import ga.tumgaming.tumine.tuminetemplate.listeners.ClickListener;
-import ga.tumgaming.tumine.tuminetemplate.listeners.JoinListener;
-import ga.tumgaming.tumine.tuminetemplate.listeners.SkillsCommand;
-import ga.tumgaming.tumine.tuminetemplate.util.*;
+import ga.tumgaming.tumine.tumineskills.listeners.BlockBreakListener;
+import ga.tumgaming.tumine.tumineskills.listeners.ClickListener;
+import ga.tumgaming.tumine.tumineskills.listeners.JoinListener;
+import ga.tumgaming.tumine.tumineskills.listeners.SkillsCommand;
+import ga.tumgaming.tumine.tumineskills.util.*;
 
-public class TUMineTemplate extends JavaPlugin {
+public class TUMineSkills extends JavaPlugin {
 
 	private static Config config;
 	private static Plugin plugin;
 
 	@Override
 	public void onEnable() {
-		TUMineTemplate.plugin = this;
+		TUMineSkills.plugin = this;
 
 		config = new Config(plugin, "skills");
 		
